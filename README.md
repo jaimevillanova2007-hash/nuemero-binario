@@ -1,3 +1,12 @@
+# funcion para pedir la opcion valuida
+
+def perdi_nuemro (mensajes) :
+    num = input("mensaje")
+    while not num.isdigit():
+         print("error, ingrese solo numeros")
+         num = input("mensaje")
+    return int(num)
+
 # Función para crear la lista
 def crear lista():
     lista = []
