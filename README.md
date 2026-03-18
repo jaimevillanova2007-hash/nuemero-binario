@@ -1,5 +1,5 @@
 # Función para crear la lista
-def crear_lista():
+def crear lista():
     lista = []
     n = int(input("¿Cuántos números desea ingresar? "))
 
@@ -12,7 +12,7 @@ def crear_lista():
 
 
 # Función de búsqueda binaria con while
-def busqueda_binaria(lista, numero):
+def busqueda binaria(lista, numero):
     izq = 0
     der = len(lista) - 1
 
